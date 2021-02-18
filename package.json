@@ -3,6 +3,7 @@
     "displayName": "nonmem_cn",
     "description": "nonmem syntax highlighter, Code block folding, Completion",
     "version": "0.0.1",
+	"publisher":"FuYongchao",
 	"homepage": "https://s0521.github.io/nonmem_cn/about/",
 	"repository": {
 		"type": "git",
