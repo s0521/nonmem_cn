@@ -1,0 +1,111 @@
+﻿字段,Number,prefix,body,Item name,Description1,Description2
+字段类型,Integer,string,regular expression,string,string,string
+字段,序号,匹配内容,填充内容,条目名称,注释1,注释2
+字段类型,整数,文本,正则表达式,文本,文本,文本
+可选,必填,必填,必填,必填,可选,可选
+注释,序号,匹配内容,填充内容,条目名称,显示人类可读的该候选项的注释，写英文,显示人类可读的该候选项的注释，写中文
+,1,ADVAN1,ADVAN1,IV-1cmp-linear,IV-1cmp-linear,静注-1房室-线性消除
+,2,ADVAN2,ADVAN2,PO-1cmp-linear,PO-1cmp-linear,口服-1房室-线性消除
+,3,ADVAN3,ADVAN3,IV-2cmp-linear,IV-2cmp-linear,静注-2房室-线性消除
+,4,ADVAN4,ADVAN4,PO-2cmp-linear,PO-2cmp-linear,口服-2房室-线性消除
+,5,ADVAN5,ADVAN5,general linear model with real or complex eigenvalues,general linear model with real or complex eigenvalues,一般线性模型-实或复特征值
+,6,ADVAN6,ADVAN6,general non-linear model (NonStiff) RK56 ODE Solver,general non-linear model (NonStiff) RK56 ODE Solver,一般线非性模型(非刚性)RK56常微分方程求解器
+,7,ADVAN7,ADVAN7,general linear model with real eigenvalues,general linear model with real eigenvalues,一般线性模型-实特征值
+,8,ADVAN8,ADVAN8,general non-linear model (Stiff) DGEAR1 ODE Solver,general non-linear model (Stiff) DGEAR1 ODE Solver,一般线非性模型(刚性)DGEAR1常微分方程求解器
+,9,ADVAN9,ADVAN9,"general non-linear model with LSODI1 ODE Solver, and Differential‐Algebraic Equations (ADE)","general non-linear model with LSODI1 ODE Solver, and Differential‐Algebraic Equations (ADE)",一般线非性模型，LSODI1常微分方程求解器和代数微分方程
+,10,ADVAN10,ADVAN10,IV-1cmp-nonlinear,IV-1cmp-nonlinear,静注-1房室-非线性消除
+,11,ADVAN11,ADVAN11,IV-3cmp-linear,IV-3cmp-linear,静注-3房室-线性消除
+,12,ADVAN12,ADVAN12,PO-3cmp-linear,PO-3cmp-linear,口服-3房室-线性消除
+,13,ADVAN13,ADVAN13,general non-linear model (Stiff or non-Stiff) LSODA ODE Solver,general non-linear model (Stiff or non-Stiff) LSODA ODE Solver,一般线非性模型(刚性或非刚性)LSODI1常微分方程求解器和代数微分方程
+,14,ADVAN14,ADVAN14,general non-linear model (Stiff non-Stiff) CVODES ODE Solver,general non-linear model (Stiff non-Stiff) CVODES ODE Solver,一般线非性模型(刚性 非刚性)LSODI1常微分方程求解器和代数微分方程
+,15,ADVAN15,ADVAN15,"general non-linear model with IDAS ODE Solver, and Differential‐Algebraic Equations (ADE)","general non-linear model with IDAS ODE Solver, and Differential‐Algebraic Equations (ADE)",一般线非性模型，IDAS常微分方程求解器和代数微分方程
+,16,TRANS1,TRANS1,Micro parameterization,Micro parameterization,微观参数化
+,17,TRANS2,TRANS2,Clearance parameterization-1cmp,Clearance parameterization-1cmp,清除率参数化-1cmp
+,18,TRANS3,TRANS3,Clearance parameterization-Vss,Clearance parameterization-Vss,清除率参数化-Vss
+,19,TRANS4,TRANS4,Clearance parameterization-V1,Clearance parameterization-V1,清除率参数化-V1
+,20,TRANS5,TRANS5,Macro parameterization-A/B,Macro parameterization-A/B,宏观参数化-A/B
+,21,TRANS6,TRANS6,Macro parameterization-k31,Macro parameterization-k31,宏观参数化-k31
+,22,$PROBLEM,\$PROBLEM,Problem Specification,Identifies the start of a Problem Specification,指定期望解决的问题用于区分不同的代码文件，一般作为NONMEM控制文件的第一个代码块，填写些注释性的文字，或可描述问题或可声明作者或可说明时间等。
+,23,$DATA,\$DATA,Define column meaning,Define the meaning of each column in the data file,定义数据文件每一列的含义
+,24,$INPUT,\$INPUT,Define the input file path,Define the input file path,定义输入文件路径
+,25,$PK,\$PK,Define the statistical structure of the PK parameter,Define the statistical structure of the PK parameter,定义PK参数的统计学结构
+,26,$ERROR,\$ERROR,Define error model,Define error model,定义误差模型
+,27,$PRED,\$PRED,Define differential equations model,The model is defined by differential equations and mutually exclusive with ADVAN(PREDPP) series subroutines.,使用微分方程定义模型，与ADVAN(PREDPP)系列子程序互斥。
+,28,$THETA,\$THETA,Define the initial value and boundary of the 'fixed' effect parameter in the statistical structure of the 'PK' parameter.,"Define the initial value and boundary of the 'fixed' effect parameter in the statistical structure of the 'PK' parameter, The coefficients of the correlation between covariates and IIV are also defined here as initial values and boundaries",定义'PK'参数统计学结构中的'固定'效应参数的初值与边界，协变量与IIV的相关性关系的系数也在此定义初值与边界
+,29,$OMEGA,\$OMEGA,Define the initial value and boundary of the 'random' effect parameter in the statistical structure of the 'PK' parameter.,"Define the initial value and boundary of the 'random' effect parameter in the statistical structure of the 'PK' parameter, The covariance between IIV also defines the initial value and boundary here",定义'PK'参数统计学结构中的'随机'效应参数的初值与边界，IIV之间的协方差也在此定义初始值与边界
+,30,$SIGMA,\$SIGMA,Define the initial value and boundary of the residual,Define the initial value and boundary of the residual,定义残差的初值与边界
+,31,$MODEL,\$MODEL,"Only for ADVAN5-9, 13 to Define compartment and compartment properties","Define compartment and compartment properties, which are only available in general linear / nonlinear models (ADVAN5-9, 13)","定义房室与房室属性，仅在一般线性/非线性模型中可用(ADVAN5-9,13)"
+,32,$DES,\$DES,"Only for ADVAN5-9, 13 to Define differential equations model","The model is defined by differential equations, which are only available in general linear / nonlinear models (ADVAN5-9, 13)","使用微分方程定义模型，仅在一般线性/非线性模型中可用(ADVAN5-9,13)"
+,33,$TABLE,\$TABLE,Define one output table,Define one output table,定义一个输出的表格
+,34,$SCATTERPLOT,\$SCATTERPLOT,Define one output SCATTERPLOT,Define one output SCATTERPLOT,定义一个输出的三点图
+,35,$ESTIMATION,\$ESTIMATION,Define the details of the estimation process,"Define the details of calculation engine algorithm, convergence criterion, maximum number of iterations and so on",定义计算引擎算法、收敛判据标准、最大迭代次数等细节。
+,36,METHOD=0  INTER,METHOD=0  INTER,Engine algorithm=FO-I,Engine algorithm=FO-I,将算法指定为FO-I
+,37,METHOD=CONDITIONAL INTER,METHOD=CONDITIONAL INTER,Engine algorithm=FOCE-I,Engine algorithm=FOCE-I,将算法指定为FOCE-I
+,38,METHOD=CONDITIONAL LAPLACE INTER,METHOD=CONDITIONAL LAPLACE INTER,Engine algorithm=LAPLACIAN-I,Engine algorithm=LAPLACIAN-I,将算法指定为LAPLACIAN-I
+,39,METHOD=HYBRID,METHOD=HYBRID,Engine algorithm=HYBRID,Engine algorithm=HYBRID,将算法指定为HYBRID-混合算法
+,40,METHOD=ITS,METHOD=ITS,Engine algorithm=ITS,Engine algorithm=ITS,将算法指定为ITS-迭代两步法
+,41,METHOD=IMP,METHOD=IMP,Engine algorithm=IMP,Engine algorithm=IMP,将算法指定为IMP-重要性重采样法
+,42,METHOD=IMPMAP,METHOD=IMPMAP,Engine algorithm=IMPMAP,Engine algorithm=IMPMAP,将算法指定为IMPMAP-使用后验众数辅助的重要性重采样
+,43,METHOD=BAYES,METHOD=BAYES,Engine algorithm=BAYES,Engine algorithm=BAYES,将算法指定为BAYES-贝叶斯
+,44,METHOD=DIRECT,METHOD=DIRECT,Engine algorithm=DIRECT,Engine algorithm=DIRECT,将算法指定为DIRECT-直接采样
+,45,METHOD=CHAIN,METHOD=CHAIN,"Engine algorithm=CHAIN, which is similar to the initial value of Phoenix NLME's Profile Run Mode to be perturbed.","Engine algorithm=CHAIN, which is similar to the initial value of Phoenix NLME's Profile Run Mode to be perturbed.",将算法指定为CHAIN-类似与PhoenixNLME的Profile运行模式初值进行扰动
+,46,.EQ.,.EQ.,=,EQual,等于
+,47,.LE.,.LE.,<=,Less than or Equal,小于等于
+,48,.LT.,.LT.,<,Less Than,小于
+,49,.GE.,.GE.,>=,Greater than or Equal,大于等于
+,50,.GT.,.GT.,>,Greater Than,大于
+,51,.NE.,.NE.,<>,Not Equal,不等于
+,52,.AND.,.AND.,And,And,逻辑运算符：和
+,53,.OR.,.OR.,Or,Or,逻辑运算符：或
+,54,IF,IF,IF,IF,逻辑运算符：如果
+,55,ELSE,ELSE,ELSE,ELSE,逻辑运算符：否则
+,56,THEN,THEN,THEN,THEN,逻辑运算符：则
+,57,ENDIF,ENDIF,ENDIF,ENDIF,逻辑运算符：结束如果
+,58,MAXEVALL=99,MAXEVALL=99,MAXEVALL=99,Set the maximum number of iterations to 999,将最大迭代次数设定为999次
+,59,$COVARIANCE,\$COVARIANCE,"Parameter accuracy(CV,RSE,SE,SD)",Define the calculation method of parameter accuracy,定义参数精度计算方法
+,60,MATRIX=R,MATRIX=R,Hessian,Hessian,海森矩阵
+,61,MATRIX=S,MATRIX=S,"Gradient, Fisher Score","Gradient, Fisher Score",梯度矩阵(雅可比矩阵)，费舍尔分数
+,62,NOABORT,NOABORT,NOABORT,,
+,63,NOAPPEND,NOAPPEND,NOAPPEND,,不在表格中附加DV，PRED，RES，WRES列
+,64,FILE,FILE,FILE,,文件=内容输出至具体哪个路径下的哪个文件
+,65,FIRSTONLY,FIRSTONLY,FIRSTONLY,,仅输出每个个体的第一条记录
+,66,ONEHEADER,ONEHEADER,ONEHEADER,,仅在首行输出一次列的名称
+,67,NOPRINT,NOPRINT,NOPRINT,,不在.lst结果中输出此内容
+,68,EXP,EXP,EXP,,以自然常数e为底的指数函数
+,69,COS,COS,COS,,余弦三角函数
+,70,SIN,SIN,SIN,,正弦三角函数
+,71,DADT,DADT,DADT,,
+,72,LOG,LOG,LOG,,
+,73,IPRED,IPRED,IPRED,,因变量个体预测值
+,74,PRED,PRED,PRED,,因变量群体预测值
+,75,CWRES,CWRES,CWRES,,条件加权残差
+,76,WRES,WRES,WRES,,加权残差
+,77,IRES,IRES,IRES,,个体残差
+,78,RES,RES,RES,,残差
+,79,CL,CL,CL,,清除率
+,80,KA,KA,KA,,
+,81,KEL,KEL,KEL,,
+,82,ALPHA,ALPHA,ALPHA,,阿尔法，宏观参数
+,83,BETA,BETA,BETA,,贝塔，宏观参数
+,84,GAMA,GAMA,GAMA,,伽马，宏观参数
+,85,TIME,TIME,TIME,,时间
+,86,AMT,AMT,AMT,,给药剂量
+,87,ADDL,ADDL,ADDL,,额外附加给药次数
+,88,II,II,II,,给药间隔
+,89,CALL,CALL,CALL,,
+,90,CMT,CMT,CMT,,房室编号
+,91,PCMT,PCMT,PCMT,,
+,92,CONT,CONT,CONT,,
+,93,DATE,DATE,DATE,,日期
+,94,RATE,RATE,RATE,,给药速率
+,95,DV,DV,DV,,因变量（观测值）
+,96,MDV,MDV,MDV,,将此行因变量的值视为缺失
+,97,EVID,EVID,EVID,,事件类型编号
+,98,FIN,FIN,FIN,,
+,99,FINISH,FINISH,FINISH,,
+,100,ID,ID,ID,,个体编号
+,101,L1,L1,L1,,
+,102,L2,L2,L2,,
+,103,SS,SS,SS,,标识是否为已经到达稳态
+,104,FIX,FIX,FIX,,将此参数的值固定为初始值
+,105,$SUBROUTINES,\$SUBROUTINES,Specify ADVAN and TRANS in this statement,Specify ADVAN and TRANS in this statement,在此语句中指定ADVAN和TRANS

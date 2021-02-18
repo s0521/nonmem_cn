@@ -1,0 +1,21 @@
+﻿自定义分类,语法高亮分类-中文,语法高亮分类-英文,前缀模式,值,正则表达式
+数学计算符号,关键字-操作符,keyword.operator,,+ - *  / ** .EQ. .LE. .LT. .GE. .GT. .NE.,+|-|*||/|**|\\.EQ\\.|\\.LE\\.|\\.LT\\.|\\.GE\\.|\\.GT\\.|\\.NE\\.
+数学函数符号,关键字-操作符,keyword.operator,,EXP COS SIN DADT LOG,EXP|COS|SIN|DADT|LOG
+数字,常数*,constant.numeric,,\d+.?\d*,\d+\\.?\d*
+逻辑比较符号,支持-函数,support.function,,IF ELSE THEN ENDIF .AND. .OR.,IF|ELSE|THEN|ENDIF|\\.AND\\.|\\.OR\\.
+赋值符号,标记-粗体,markup.bold,,=,=
+分隔符,关键字-操作符,keyword.operator,,"( ) ,",
+注释,注释*,comment.line,是,;,;
+数据保留变量,常数-字符,constant.character,,TIME AMT ADDL II CALL CMT PCMT CONT DATE RATE DV MDV EVID FIN FINISH ID L1 II L2 MRG_ RAW_ RPT_ SS,TIME|AMT|ADDL|II|CALL|CMT|PCMT|CONT|DATE|RATE|DV|MDV|EVID|FIN|FINISH|ID|L1|II|L2|MRG_|RAW_|RPT_|SS
+常见的药动学参数,支持-变量,support.variable,是,IPRED PRED CWRES WRES CL Q V KA KEL ,IPRED|PRED|CWRES|WRES|CL|Q|V|KA|KEL|
+,支持-变量,support.variable,是+,S D R ALAG,S|D|R|ALAG
+,支持-变量,support.variable,,ALPHA BETA GAMA,ALPHA|BETA|GAMA
+其他nonmem的关键字,变量-参数,variable.parameter,是,THETA ETA ERR EPS,THETA|ETA|ERR|EPS|FIX|FIXED
+其他nonmem的关键字,支持-类型,support.type,,INTERACTION INTER NOABORT NOAPPEND,INTERACTION|INTER|NOABORT|NOAPPEND
+语句块,实体,support.function,是,$,\$
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

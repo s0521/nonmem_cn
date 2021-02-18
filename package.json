@@ -1,0 +1,31 @@
+{
+    "name": "nonmem-cn",
+    "displayName": "nonmem_cn",
+    "description": "nonmem",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "main":"./extension.js",
+    "activationEvents": ["onLanguage:nonmem_cn"],
+    "contributes": {
+        "languages": [{
+            "id": "nonmem_cn",
+            "aliases": ["nonmem", "nonmem_cn"],
+            "extensions": [".mod"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "nonmem_cn",
+            "scopeName": "nonmem_cn",
+            "path": "./syntaxes/nonmem_cn.tmLanguage.json"
+        }],
+		"snippets": [{
+				"language": "nonmem_cn",
+				"path": "./snippets/nonmem_cn.json"
+		}]
+    }
+}

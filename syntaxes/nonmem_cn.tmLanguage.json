@@ -1,0 +1,103 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "nonmem",
+	"patterns": [
+		{
+			"include": "#variable"
+		},
+		{
+			"include": "#markup"
+		},
+		{
+			"include": "#keyword"
+		},
+		{
+			"include": "#keyword2"
+		},
+		{
+			"include": "#entity"
+		},
+		{
+			"include": "#support"
+		},
+		{
+			"include": "#comment"
+		},
+		{
+			"include": "#constant"
+		}
+	],
+	"repository": {
+		"variable": {
+			"begin": "((THETA|ETA|ERR|EPS)\\()",
+			"end": "\\)",
+			"name": "variable.parameter",
+			"patterns": [{"include": "#keyword"}]
+		},
+		"markup": {
+			"patterns": [{
+				"name": "markup.bold",
+				"match": "="
+			}]
+		},
+		"keyword": {
+			"begin": "((EXP|COS|SIN|DADT|LOG)\\()",
+			"end": "\\)",
+			"name": "keyword.operator",
+			"patterns": [
+				{"include": "#support"},
+				{"include": "#variable"}
+			]
+		},
+		"keyword2": {
+			"patterns": [{
+				"name": "keyword.operator",
+				"match": "(\\+|-|\\*|/|\\*\\*|\\.EQ\\.|\\.LE\\.|\\.LT\\.|\\.GE\\.|\\.GT\\.|\\.NE\\.|\\(|\\)|,)"
+				}]
+		},
+		"support": {
+			"patterns": [{
+				"name": "support.function",
+				"match": "(^\\$\\w+)"
+			},
+			{
+				"name": "support.function",
+				"match": "IF|ELSE|THEN|ENDIF|\\.AND\\.|\\.OR\\."
+			},
+			{
+				"name": "support.variable",
+				"match": "(^|\\s|\\b)(IPRED|PRED|CWRES|WRES|IRES|RES|CL|Q|V|KA|KEL)\\w*"
+			},
+			{
+				"name": "support.variable",
+				"match": "(^|\\s|\\b)(S|D|R|ALAG)\\d+"
+			},
+			{
+				"name": "support.variable",
+				"match": "ALPHA|BETA|GAMA|W|F"
+			},
+			{
+				"name": "support.type",
+				"match": "INTERACTION|INTER|NOABORT|NOAPPEND|FILE|FIRSTONLY|ONEHEADER|NOPRINT"
+			}
+		]},
+		"comment": {
+			"patterns": [{
+				"name": "comment.line",
+				"match": ";.*"
+			}]
+		},
+		"constant": {
+			"patterns": [{
+				"name": "constant.character",
+				"match": "(\\s|^|\\b)(TIME|AMT|ADDL|II|CALL|CMT|PCMT|CONT|DATE|RATE|DV|MDV|EVID|FIN|FINISH|ID|L1|L2|MRG_|RAW_|RPT_|SS)\\b"
+			},
+			{
+				"name": "constant.numeric",
+				"match":"(\\s|^|\\b)(\\d+\\.?\\d*)(\\s|^|\\b)"
+			}
+		]
+		}
+	},
+	"scopeName": "nonmem_cn"
+}
