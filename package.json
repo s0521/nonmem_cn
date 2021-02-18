@@ -2,36 +2,52 @@
     "name": "nonmem-cn",
     "displayName": "nonmem_cn",
     "description": "nonmem syntax highlighter, Code block folding, Completion",
-    "version": "0.0.1",
-	"publisher":"FuYongchao",
-	"homepage": "https://s0521.github.io/nonmem_cn/about/",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/s0521/nonmem_cn.git"
-	},
+    "version": "0.0.2",
+    "publisher": "FuYongchao",
+    "homepage": "https://s0521.github.io/nonmem_cn/about/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/s0521/nonmem_cn.git"
+    },
     "engines": {
         "vscode": "^1.52.0"
     },
     "categories": [
         "Programming Languages"
     ],
-    "main":"./extension.js",
-    "activationEvents": ["onLanguage:nonmem_cn"],
+    "main": "./extension.js",
+    "activationEvents": [
+        "onLanguage:nonmem_cn"
+    ],
     "contributes": {
-        "languages": [{
-            "id": "nonmem_cn",
-            "aliases": ["nonmem", "nonmem_cn"],
-            "extensions": [".mod","ctl","clt",".lst"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "nonmem_cn",
-            "scopeName": "nonmem_cn",
-            "path": "./syntaxes/nonmem_cn.tmLanguage.json"
-        }],
-		"snippets": [{
-				"language": "nonmem_cn",
-				"path": "./snippets/nonmem_cn.json"
-		}]
+        "languages": [
+            {
+                "id": "nonmem_cn",
+                "aliases": [
+                    "nonmem",
+                    "nonmem_cn"
+                ],
+                "extensions": [
+                    ".mod",
+                    "ctl",
+                    "clt",
+                    ".lst"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "nonmem_cn",
+                "scopeName": "nonmem_cn",
+                "path": "./syntaxes/nonmem_cn.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "nonmem_cn",
+                "path": "./snippets/nonmem_cn.json"
+            }
+        ]
     }
 }
