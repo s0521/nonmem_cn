@@ -1,26 +1,31 @@
-# nonmem-cn Extension for Visual Studio Code
-
-# Visual Studio Code的nonmem-cn扩展
+# nonmem-cn Extension for Visual Studio Code(Visual Studio Code的nonmem-cn扩展)
 
 This extension implements basic **language features** of **NONMEM** for [Visual Studio Code](https://code.visualstudio.com/).
 
 这个扩展在[Visual Studio Code](https://code.visualstudio.com/)实现了**NONMEM**的一些基础的**语言功能**。
 
-## Features 功能
+  
 
-Syntax highlighting 语法高亮
+# Features 功能
+
+- Syntax highlighting 语法高亮
+
 
 ![Syntax highlighting](https://github.com/s0521/nonmem_cn/raw/master/Highlight.png)
 
-Completion (snippets) 自动补全(片段)
+- Completion (snippets) 自动补全(片段)
+
 
 ![Completion](https://github.com/s0521/nonmem_cn/raw/master/snippets.gif)
 
-Code block folding 代码块折叠
+- Code block folding 代码块折叠
+
 
 ![Code block folding](https://github.com/s0521/nonmem_cn/raw/master/Folding.gif)
 
-## Extension Settings 扩展设置
+ 
+
+# Extension Settings 扩展设置
 
 If you expect the suggested auto-completion to appear at the top of the suggestion list, you need to make the following settings:
 
@@ -30,17 +35,22 @@ Search for editor.snippetSuggestions in the settings, there are four options top
 
 在设置中搜索到editor.snippetSuggestions这个设置，其中有四个选项top、bottom、inline、none四个选项，选择top即可。
 
-## Known Issues 已知问题
+
+
+# Known Issues 已知问题
 
 It is recommended that the ordering of completed content is not very appropriate, and it takes a lot of time to modify the sorting. So is temporarily abandoned for the time being.
 
 建议补全的内容排序不是很恰当，修改排序需要花费大量的时间深入学习VSCode，目前暂时放弃。
 
+
+
 # Future Planning feature 未来计划功能
 
-Outline 代码大纲
+- Outline 代码大纲
 
-Hover 悬停提示
+- Hover 悬停提示
+
 
 # Purpose 目的
 
@@ -64,26 +74,28 @@ I can add your supplementary content directly to the corresponding JOSN file by 
 
 # More NONMEM Learning Resources 更多NONMEM学习资源
 
-Pirana:
+## Pirana:
 
-NONMEM's perfect partner. NONMEM的绝佳好搭档。
+- NONMEM's perfect partner. NONMEM的绝佳好搭档。
 
-http://www.tri-ibiotech.com/pkpd/product_112.html
+- http://www.tri-ibiotech.com/pkpd/product_112.html
 
-https://www.certara.com/software/pirana-modeling-workbench/
+- https://www.certara.com/software/pirana-modeling-workbench/
 
-QQ群：563236369
-
-
-
-Perl speaks NONMEM:
-
-Common function combination toolkit. 常用功能组合工具包。
-
-https://uupharmacometrics.github.io/PsN/
+- QQ群：563236369
 
 
+ 
 
-Introduction of common NONMEM models　常见NONMEM模型介绍：
+## Perl speaks NONMEM:
 
-https://support.certara.com/forums/forum/35-nlme-nonmem-model-comparisons/
+- Common function combination toolkit. 常用功能组合工具包。
+
+- https://uupharmacometrics.github.io/PsN/
+
+
+ 
+
+# Introduction of common NONMEM models(常见NONMEM模型介绍)：
+
+- https://support.certara.com/forums/forum/35-nlme-nonmem-model-comparisons/
