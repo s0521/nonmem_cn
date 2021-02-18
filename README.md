@@ -11,15 +11,15 @@ This extension implements basic language features of NONMEM for [Visual Studio C
 
 Syntax highlighting.
 
-![](../../../../static/images/README.chs/Highlight.png)
+![](https://github.com/s0521/nonmem_cn/blob/master/Highlight.png)
 
 Completion (snippets)
 
-![](../../../../static/images/README.chs/snippets.gif)
+![](https://github.com/s0521/nonmem_cn/blob/master/snippets.gif)
 
 Code block folding
 
-![](../../../../static/images/README.chs/Folding.gif)
+![](https://github.com/s0521/nonmem_cn/blob/master/Folding.gif)
 
 ## Extension Settings
 
