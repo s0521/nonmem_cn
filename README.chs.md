@@ -49,6 +49,6 @@
 
 补全提示、悬停提示、语法高亮等的实现需要通过遍历所有枚举的方式来完成，这是一个很耗时的工作，你可以参与进来，贡献你的知识使得该工具变的更好。
 
-在此扩展的github仓库中我提供了两个CSV文件“Highlight.csv”、“snippets.csv”，其可以参照已有的内容补充新的行，来增加内容。
+在此扩展的github仓库 [https://github.com/s0521/nonmem_cn](https://github.com/s0521/nonmem_cn)中我提供了两个CSV文件“Highlight.csv”、“snippets.csv”，其可以参照已有的内容补充新的行，来增加内容。
 
 你补充的内容我可以通过Excel公式合并为JSON格式直接添加到对用的JOSN文件中。

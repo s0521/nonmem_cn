@@ -1,8 +1,13 @@
 {
     "name": "nonmem-cn",
     "displayName": "nonmem_cn",
-    "description": "nonmem",
+    "description": "nonmem syntax highlighter, Code block folding, Completion",
     "version": "0.0.1",
+	"homepage": "https://s0521.github.io/nonmem_cn/about/",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/s0521/nonmem_cn.git"
+	},
     "engines": {
         "vscode": "^1.52.0"
     },
@@ -15,7 +20,7 @@
         "languages": [{
             "id": "nonmem_cn",
             "aliases": ["nonmem", "nonmem_cn"],
-            "extensions": [".mod"],
+            "extensions": [".mod","ctl","clt",".lst"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
