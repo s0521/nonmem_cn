@@ -29,7 +29,7 @@
 	],
 	"repository": {
 		"variable": {
-			"begin": "((THETA|ETA|ERR|EPS)\\()",
+			"begin": "((?i:THETA|ETA|ERR|EPS)\\()",
 			"end": "\\)",
 			"name": "variable.parameter",
 			"patterns": [{"include": "#keyword"}]
@@ -41,7 +41,7 @@
 			}]
 		},
 		"keyword": {
-			"begin": "((EXP|COS|SIN|DADT|LOG)\\()",
+			"begin": "((?i:EXP|COS|SIN|DADT|LOG)\\()",
 			"end": "\\)",
 			"name": "keyword.operator",
 			"patterns": [
@@ -52,33 +52,33 @@
 		"keyword2": {
 			"patterns": [{
 				"name": "keyword.operator",
-				"match": "(\\+|-|\\*|/|\\*\\*|\\.EQ\\.|\\.LE\\.|\\.LT\\.|\\.GE\\.|\\.GT\\.|\\.NE\\.|\\(|\\)|,)"
+				"match": "(?i:\\+|-|\\*|/|\\*\\*|\\.EQ\\.|\\.LE\\.|\\.LT\\.|\\.GE\\.|\\.GT\\.|\\.NE\\.|\\(|\\)|,)"
 				}]
 		},
 		"support": {
 			"patterns": [{
 				"name": "support.function",
-				"match": "(^\\$\\w+)"
+				"match": "(?i:^\\$\\w+)"
 			},
 			{
 				"name": "support.function",
-				"match": "IF|ELSE|THEN|ENDIF|\\.AND\\.|\\.OR\\."
+				"match": "(?i:IF|ELSE|THEN|ENDIF|\\.AND\\.|\\.OR\\.)"
 			},
 			{
 				"name": "support.variable",
-				"match": "(^|\\s|\\b)(IPRED|PRED|CWRES|WRES|IRES|RES|CL|Q|V|KA|KEL)\\w*"
+				"match": "(^|\\s|\\b)(?i:IPRED|PRED|CWRES|WRES|IRES|RES|CL|Q|V|KA|KEL)\\w*"
 			},
 			{
 				"name": "support.variable",
-				"match": "(^|\\s|\\b)(S|D|R|ALAG)\\d+"
+				"match": "(^|\\s|\\b)(?i:S|D|R|ALAG)\\d+"
 			},
 			{
 				"name": "support.variable",
-				"match": "(^|\\s|\\b)(ALPHA|BETA|GAMA|W|F)(\\s|^|\\b)"
+				"match": "(^|\\s|\\b)(?i:ALPHA|BETA|GAMA|W|F)(\\s|^|\\b)"
 			},
 			{
 				"name": "support.type",
-				"match": "(\\s|^|\\b)(INTERACTION|INTER|NOABORT|NOAPPEND|FILE|FIRSTONLY|ONEHEADER|NOPRINT|FIX|FIXED)(\\s|^|\\b)"
+				"match": "(\\s|^|\\b)(?i:INTERACTION|INTER|NOABORT|NOAPPEND|FILE|FIRSTONLY|ONEHEADER|NOPRINT|FIX|FIXED)(\\s|^|\\b)"
 			}
 		]},
 		"comment": {
@@ -90,7 +90,7 @@
 		"constant": {
 			"patterns": [{
 				"name": "constant.character",
-				"match": "(\\s|^|\\b)(TIME|AMT|ADDL|II|CALL|CMT|PCMT|CONT|DATE|RATE|DV|MDV|EVID|FIN|FINISH|ID|L1|L2|MRG_|RAW_|RPT_|SS)(\\s|\\b)"
+				"match": "(\\s|^|\\b)(?i:TIME|AMT|ADDL|II|CALL|CMT|PCMT|CONT|DATE|RATE|DV|MDV|EVID|FIN|FINISH|ID|L1|L2|MRG_|RAW_|RPT_|SS)(\\s|\\b)"
 			},
 			{
 				"name": "constant.numeric",
