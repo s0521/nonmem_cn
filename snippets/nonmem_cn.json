@@ -523,5 +523,25 @@
         "prefix": "$SUBROUTINES",
         "body": "\\$SUBROUTINES",
         "description": "Specify ADVAN and TRANS in this statement;在此语句中指定ADVAN和TRANS"
+    },
+    "IGNORE": {
+        "prefix": "IGNORE",
+        "body": "IGNORE",
+        "description": "IGNORE;定义用于筛选过滤的符号，行首为该符号的行被“剔除”"
+    },
+    "THETA()": {
+        "prefix": "THETA()",
+        "body": "THETA($1)$2",
+        "description": "THETA();定义一个固定效应变量"
+    },
+    "ETA()": {
+        "prefix": "ETA()",
+        "body": "ETA($1)$2",
+        "description": "ETA();定义一个个体间变异随机变量"
+    },
+    "ERR()": {
+        "prefix": "ERR()",
+        "body": "ERR($1)$2",
+        "description": "ERR();定义一个个体内变异随机变量"
     }
 }

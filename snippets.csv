@@ -109,3 +109,7 @@
 ,103,SS,SS,SS,,标识是否为已经到达稳态
 ,104,FIX,FIX,FIX,,将此参数的值固定为初始值
 ,105,$SUBROUTINES,\\$SUBROUTINES,Specify ADVAN and TRANS in this statement,Specify ADVAN and TRANS in this statement,在此语句中指定ADVAN和TRANS
+,106,IGNORE,IGNORE,IGNORE,IGNORE,定义用于筛选过滤的符号，行首为该符号的行被“剔除”
+,107,THETA(),THETA($1)$2,THETA(),THETA(),定义一个固定效应变量
+,108,ETA(),ETA($1)$2,ETA(),ETA(),定义一个个体间变异随机变量
+,109,ERR(),ERR($1)$2,ERR(),ERR(),定义一个个体内变异随机变量
