@@ -25,20 +25,20 @@
 ,19,TRANS4,TRANS4,Clearance parameterization-V1,Clearance parameterization-V1,清除率参数化-V1
 ,20,TRANS5,TRANS5,Macro parameterization-A/B,Macro parameterization-A/B,宏观参数化-A/B
 ,21,TRANS6,TRANS6,Macro parameterization-k31,Macro parameterization-k31,宏观参数化-k31
-,22,$PROBLEM,\$PROBLEM,Problem Specification,Identifies the start of a Problem Specification,指定期望解决的问题用于区分不同的代码文件，一般作为NONMEM控制文件的第一个代码块，填写些注释性的文字，或可描述问题或可声明作者或可说明时间等。
-,23,$DATA,\$DATA,Define column meaning,Define the meaning of each column in the data file,定义数据文件每一列的含义
-,24,$INPUT,\$INPUT,Define the input file path,Define the input file path,定义输入文件路径
-,25,$PK,\$PK,Define the statistical structure of the PK parameter,Define the statistical structure of the PK parameter,定义PK参数的统计学结构
-,26,$ERROR,\$ERROR,Define error model,Define error model,定义误差模型
-,27,$PRED,\$PRED,Define differential equations model,The model is defined by differential equations and mutually exclusive with ADVAN(PREDPP) series subroutines.,使用微分方程定义模型，与ADVAN(PREDPP)系列子程序互斥。
-,28,$THETA,\$THETA,Define the initial value and boundary of the 'fixed' effect parameter in the statistical structure of the 'PK' parameter.,"Define the initial value and boundary of the 'fixed' effect parameter in the statistical structure of the 'PK' parameter, The coefficients of the correlation between covariates and IIV are also defined here as initial values and boundaries",定义'PK'参数统计学结构中的'固定'效应参数的初值与边界，协变量与IIV的相关性关系的系数也在此定义初值与边界
-,29,$OMEGA,\$OMEGA,Define the initial value and boundary of the 'random' effect parameter in the statistical structure of the 'PK' parameter.,"Define the initial value and boundary of the 'random' effect parameter in the statistical structure of the 'PK' parameter, The covariance between IIV also defines the initial value and boundary here",定义'PK'参数统计学结构中的'随机'效应参数的初值与边界，IIV之间的协方差也在此定义初始值与边界
-,30,$SIGMA,\$SIGMA,Define the initial value and boundary of the residual,Define the initial value and boundary of the residual,定义残差的初值与边界
-,31,$MODEL,\$MODEL,"Only for ADVAN5-9, 13 to Define compartment and compartment properties","Define compartment and compartment properties, which are only available in general linear / nonlinear models (ADVAN5-9, 13)","定义房室与房室属性，仅在一般线性/非线性模型中可用(ADVAN5-9,13)"
-,32,$DES,\$DES,"Only for ADVAN5-9, 13 to Define differential equations model","The model is defined by differential equations, which are only available in general linear / nonlinear models (ADVAN5-9, 13)","使用微分方程定义模型，仅在一般线性/非线性模型中可用(ADVAN5-9,13)"
-,33,$TABLE,\$TABLE,Define one output table,Define one output table,定义一个输出的表格
-,34,$SCATTERPLOT,\$SCATTERPLOT,Define one output SCATTERPLOT,Define one output SCATTERPLOT,定义一个输出的三点图
-,35,$ESTIMATION,\$ESTIMATION,Define the details of the estimation process,"Define the details of calculation engine algorithm, convergence criterion, maximum number of iterations and so on",定义计算引擎算法、收敛判据标准、最大迭代次数等细节。
+,22,$PROBLEM,\\$PROBLEM,Problem Specification,Identifies the start of a Problem Specification,指定期望解决的问题用于区分不同的代码文件，一般作为NONMEM控制文件的第一个代码块，填写些注释性的文字，或可描述问题或可声明作者或可说明时间等。
+,23,$DATA,\\$DATA,Define column meaning,Define the meaning of each column in the data file,定义数据文件每一列的含义
+,24,$INPUT,\\$INPUT,Define the input file path,Define the input file path,定义输入文件路径
+,25,$PK,\\$PK,Define the statistical structure of the PK parameter,Define the statistical structure of the PK parameter,定义PK参数的统计学结构
+,26,$ERROR,\\$ERROR,Define error model,Define error model,定义误差模型
+,27,$PRED,\\$PRED,Define differential equations model,The model is defined by differential equations and mutually exclusive with ADVAN(PREDPP) series subroutines.,使用微分方程定义模型，与ADVAN(PREDPP)系列子程序互斥。
+,28,$THETA,\\$THETA,Define the initial value and boundary of the 'fixed' effect parameter in the statistical structure of the 'PK' parameter.,"Define the initial value and boundary of the 'fixed' effect parameter in the statistical structure of the 'PK' parameter, The coefficients of the correlation between covariates and IIV are also defined here as initial values and boundaries",定义'PK'参数统计学结构中的'固定'效应参数的初值与边界，协变量与IIV的相关性关系的系数也在此定义初值与边界
+,29,$OMEGA,\\$OMEGA,Define the initial value and boundary of the 'random' effect parameter in the statistical structure of the 'PK' parameter.,"Define the initial value and boundary of the 'random' effect parameter in the statistical structure of the 'PK' parameter, The covariance between IIV also defines the initial value and boundary here",定义'PK'参数统计学结构中的'随机'效应参数的初值与边界，IIV之间的协方差也在此定义初始值与边界
+,30,$SIGMA,\\$SIGMA,Define the initial value and boundary of the residual,Define the initial value and boundary of the residual,定义残差的初值与边界
+,31,$MODEL,\\$MODEL,"Only for ADVAN5-9, 13 to Define compartment and compartment properties","Define compartment and compartment properties, which are only available in general linear / nonlinear models (ADVAN5-9, 13)","定义房室与房室属性，仅在一般线性/非线性模型中可用(ADVAN5-9,13)"
+,32,$DES,\\$DES,"Only for ADVAN5-9, 13 to Define differential equations model","The model is defined by differential equations, which are only available in general linear / nonlinear models (ADVAN5-9, 13)","使用微分方程定义模型，仅在一般线性/非线性模型中可用(ADVAN5-9,13)"
+,33,$TABLE,\\$TABLE,Define one output table,Define one output table,定义一个输出的表格
+,34,$SCATTERPLOT,\\$SCATTERPLOT,Define one output SCATTERPLOT,Define one output SCATTERPLOT,定义一个输出的三点图
+,35,$ESTIMATION,\\$ESTIMATION,Define the details of the estimation process,"Define the details of calculation engine algorithm, convergence criterion, maximum number of iterations and so on",定义计算引擎算法、收敛判据标准、最大迭代次数等细节。
 ,36,METHOD=0  INTER,METHOD=0  INTER,Engine algorithm=FO-I,Engine algorithm=FO-I,将算法指定为FO-I
 ,37,METHOD=CONDITIONAL INTER,METHOD=CONDITIONAL INTER,Engine algorithm=FOCE-I,Engine algorithm=FOCE-I,将算法指定为FOCE-I
 ,38,METHOD=CONDITIONAL LAPLACE INTER,METHOD=CONDITIONAL LAPLACE INTER,Engine algorithm=LAPLACIAN-I,Engine algorithm=LAPLACIAN-I,将算法指定为LAPLACIAN-I
@@ -61,8 +61,8 @@
 ,55,ELSE,ELSE,ELSE,ELSE,逻辑运算符：否则
 ,56,THEN,THEN,THEN,THEN,逻辑运算符：则
 ,57,ENDIF,ENDIF,ENDIF,ENDIF,逻辑运算符：结束如果
-,58,MAXEVALL=99,MAXEVALL=99,MAXEVALL=99,Set the maximum number of iterations to 999,将最大迭代次数设定为999次
-,59,$COVARIANCE,\$COVARIANCE,"Parameter accuracy(CV,RSE,SE,SD)",Define the calculation method of parameter accuracy,定义参数精度计算方法
+,58,MAXEVALL=999,MAXEVALL=999,MAXEVALL=999,Set the maximum number of iterations to 999,将最大迭代次数设定为999次
+,59,$COVARIANCE,\\$COVARIANCE,"Parameter accuracy(CV,RSE,SE,SD)",Define the calculation method of parameter accuracy,定义参数精度计算方法
 ,60,MATRIX=R,MATRIX=R,Hessian,Hessian,海森矩阵
 ,61,MATRIX=S,MATRIX=S,"Gradient, Fisher Score","Gradient, Fisher Score",梯度矩阵(雅可比矩阵)，费舍尔分数
 ,62,NOABORT,NOABORT,NOABORT,,
@@ -108,4 +108,4 @@
 ,102,L2,L2,L2,,
 ,103,SS,SS,SS,,标识是否为已经到达稳态
 ,104,FIX,FIX,FIX,,将此参数的值固定为初始值
-,105,$SUBROUTINES,\$SUBROUTINES,Specify ADVAN and TRANS in this statement,Specify ADVAN and TRANS in this statement,在此语句中指定ADVAN和TRANS
+,105,$SUBROUTINES,\\$SUBROUTINES,Specify ADVAN and TRANS in this statement,Specify ADVAN and TRANS in this statement,在此语句中指定ADVAN和TRANS

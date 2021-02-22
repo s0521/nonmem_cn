@@ -74,11 +74,11 @@
 			},
 			{
 				"name": "support.variable",
-				"match": "ALPHA|BETA|GAMA|W|F"
+				"match": "(^|\\s|\\b)(ALPHA|BETA|GAMA|W|F)(\\s|^|\\b)"
 			},
 			{
 				"name": "support.type",
-				"match": "INTERACTION|INTER|NOABORT|NOAPPEND|FILE|FIRSTONLY|ONEHEADER|NOPRINT"
+				"match": "(\\s|^|\\b)(INTERACTION|INTER|NOABORT|NOAPPEND|FILE|FIRSTONLY|ONEHEADER|NOPRINT|FIX|FIXED)(\\s|^|\\b)"
 			}
 		]},
 		"comment": {
@@ -90,7 +90,7 @@
 		"constant": {
 			"patterns": [{
 				"name": "constant.character",
-				"match": "(\\s|^|\\b)(TIME|AMT|ADDL|II|CALL|CMT|PCMT|CONT|DATE|RATE|DV|MDV|EVID|FIN|FINISH|ID|L1|L2|MRG_|RAW_|RPT_|SS)\\b"
+				"match": "(\\s|^|\\b)(TIME|AMT|ADDL|II|CALL|CMT|PCMT|CONT|DATE|RATE|DV|MDV|EVID|FIN|FINISH|ID|L1|L2|MRG_|RAW_|RPT_|SS)(\\s|\\b)"
 			},
 			{
 				"name": "constant.numeric",

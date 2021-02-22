@@ -106,72 +106,72 @@
     },
     "Problem Specification": {
         "prefix": "$PROBLEM",
-        "body":"\$PROBLEM",
+        "body": "\\$PROBLEM",
         "description": "Identifies the start of a Problem Specification;指定期望解决的问题用于区分不同的代码文件，一般作为NONMEM控制文件的第一个代码块，填写些注释性的文字，或可描述问题或可声明作者或可说明时间等。"
     },
     "Define column meaning": {
         "prefix": "$DATA",
-        "body":"\$DATA",
+        "body": "\\$DATA",
         "description": "Define the meaning of each column in the data file;定义数据文件每一列的含义"
     },
     "Define the input file path": {
         "prefix": "$INPUT",
-        "body":"\$INPUT",
+        "body": "\\$INPUT",
         "description": "Define the input file path;定义输入文件路径"
     },
     "Define the statistical structure of the PK parameter": {
         "prefix": "$PK",
-        "body":"\$PK",
+        "body": "\\$PK",
         "description": "Define the statistical structure of the PK parameter;定义PK参数的统计学结构"
     },
     "Define error model": {
         "prefix": "$ERROR",
-        "body":"\$ERROR",
+        "body": "\\$ERROR",
         "description": "Define error model;定义误差模型"
     },
     "Define differential equations model": {
         "prefix": "$PRED",
-        "body":"\$PRED",
+        "body": "\\$PRED",
         "description": "The model is defined by differential equations and mutually exclusive with ADVAN(PREDPP) series subroutines.;使用微分方程定义模型，与ADVAN(PREDPP)系列子程序互斥。"
     },
     "Define the initial value and boundary of the 'fixed' effect parameter in the statistical structure of the 'PK' parameter.": {
         "prefix": "$THETA",
-        "body":"\$THETA",
+        "body": "\\$THETA",
         "description": "Define the initial value and boundary of the 'fixed' effect parameter in the statistical structure of the 'PK' parameter, The coefficients of the correlation between covariates and IIV are also defined here as initial values and boundaries;定义'PK'参数统计学结构中的'固定'效应参数的初值与边界，协变量与IIV的相关性关系的系数也在此定义初值与边界"
     },
     "Define the initial value and boundary of the 'random' effect parameter in the statistical structure of the 'PK' parameter.": {
         "prefix": "$OMEGA",
-        "body":"\$OMEGA",
+        "body": "\\$OMEGA",
         "description": "Define the initial value and boundary of the 'random' effect parameter in the statistical structure of the 'PK' parameter, The covariance between IIV also defines the initial value and boundary here;定义'PK'参数统计学结构中的'随机'效应参数的初值与边界，IIV之间的协方差也在此定义初始值与边界"
     },
     "Define the initial value and boundary of the residual": {
         "prefix": "$SIGMA",
-        "body":"\$SIGMA",
+        "body": "\\$SIGMA",
         "description": "Define the initial value and boundary of the residual;定义残差的初值与边界"
     },
     "Only for ADVAN5-9, 13 to Define compartment and compartment properties": {
         "prefix": "$MODEL",
-        "body":"\$MODEL",
+        "body": "\\$MODEL",
         "description": "Define compartment and compartment properties, which are only available in general linear / nonlinear models (ADVAN5-9, 13);定义房室与房室属性，仅在一般线性/非线性模型中可用(ADVAN5-9,13)"
     },
     "Only for ADVAN5-9, 13 to Define differential equations model": {
         "prefix": "$DES",
-        "body":"\$DES",
+        "body": "\\$DES",
         "description": "The model is defined by differential equations, which are only available in general linear / nonlinear models (ADVAN5-9, 13);使用微分方程定义模型，仅在一般线性/非线性模型中可用(ADVAN5-9,13)"
     },
     "Define one output table": {
         "prefix": "$TABLE",
-        "body":"\$TABLE",
+        "body": "\\$TABLE",
         "description": "Define one output table;定义一个输出的表格"
     },
     "Define one output SCATTERPLOT": {
         "prefix": "$SCATTERPLOT",
-        "body":"\$SCATTERPLOT",
+        "body": "\\$SCATTERPLOT",
         "description": "Define one output SCATTERPLOT;定义一个输出的三点图"
     },
     "Define the details of the estimation process": {
         "prefix": "$ESTIMATION",
-        "body":"\$ESTIMATION",
+        "body": "\\$ESTIMATION",
         "description": "Define the details of calculation engine algorithm, convergence criterion, maximum number of iterations and so on;定义计算引擎算法、收敛判据标准、最大迭代次数等细节。"
     },
     "Engine algorithm=FO-I": {
@@ -284,14 +284,14 @@
         "body": "ENDIF",
         "description": "ENDIF;逻辑运算符：结束如果"
     },
-    "MAXEVALL=99": {
-        "prefix": "MAXEVALL=99",
-        "body": "MAXEVALL=99",
+    "MAXEVALL=999": {
+        "prefix": "MAXEVALL=999",
+        "body": "MAXEVALL=999",
         "description": "Set the maximum number of iterations to 999;将最大迭代次数设定为999次"
     },
     "Parameter accuracy(CV,RSE,SE,SD)": {
         "prefix": "$COVARIANCE",
-        "body":"\$COVARIANCE",
+        "body": "\\$COVARIANCE",
         "description": "Define the calculation method of parameter accuracy;定义参数精度计算方法"
     },
     "Hessian": {
@@ -521,7 +521,7 @@
     },
     "Specify ADVAN and TRANS in this statement": {
         "prefix": "$SUBROUTINES",
-        "body":"\$SUBROUTINES",
+        "body": "\\$SUBROUTINES",
         "description": "Specify ADVAN and TRANS in this statement;在此语句中指定ADVAN和TRANS"
     }
 }
