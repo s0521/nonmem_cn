@@ -264,10 +264,10 @@
         "body": ".OR.",
         "description": "Or;逻辑运算符：或"
     },
-    "IF": {
-        "prefix": "IF",
-        "body": "IF",
-        "description": "IF;逻辑运算符：如果"
+    "IF()": {
+        "prefix": "IF()",
+        "body": "IF($1)$2",
+        "description": "IF();逻辑运算符：如果"
     },
     "ELSE": {
         "prefix": "ELSE",
@@ -334,19 +334,19 @@
         "body": "NOPRINT",
         "description": ";不在.lst结果中输出此内容"
     },
-    "EXP": {
-        "prefix": "EXP",
-        "body": "EXP",
+    "EXP()": {
+        "prefix": "EXP()",
+        "body": "EXP($1)$2",
         "description": ";以自然常数e为底的指数函数"
     },
-    "COS": {
-        "prefix": "COS",
-        "body": "COS",
+    "COS()": {
+        "prefix": "COS()",
+        "body": "COS($1)$2",
         "description": ";余弦三角函数"
     },
-    "SIN": {
-        "prefix": "SIN",
-        "body": "SIN",
+    "SIN()": {
+        "prefix": "SIN()",
+        "body": "SIN($1)$2",
         "description": ";正弦三角函数"
     },
     "DADT": {
@@ -354,9 +354,9 @@
         "body": "DADT",
         "description": ";"
     },
-    "LOG": {
-        "prefix": "LOG",
-        "body": "LOG",
+    "LOG()": {
+        "prefix": "LOG()",
+        "body": "LOG($1)$2",
         "description": ";"
     },
     "IPRED": {
@@ -523,5 +523,25 @@
         "prefix": "$SUBROUTINES",
         "body": "\\$SUBROUTINES",
         "description": "Specify ADVAN and TRANS in this statement;在此语句中指定ADVAN和TRANS"
+    },
+    "IGNORE": {
+        "prefix": "IGNORE",
+        "body": "IGNORE",
+        "description": "IGNORE;定义用于筛选过滤的符号，行首为该符号的行被“剔除”"
+    },
+    "THETA()": {
+        "prefix": "THETA()",
+        "body": "THETA($1)$2",
+        "description": "THETA();定义一个固定效应变量"
+    },
+    "ETA()": {
+        "prefix": "ETA()",
+        "body": "ETA($1)$2",
+        "description": "ETA();定义一个个体间变异随机变量"
+    },
+    "ERR()": {
+        "prefix": "ERR()",
+        "body": "ERR($1)$2",
+        "description": "ERR();定义一个个体内变异随机变量"
     }
 }
