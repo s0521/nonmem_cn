@@ -2,7 +2,7 @@
     "name": "nonmem-cn",
     "displayName": "nonmem_cn",
     "description": "nonmem syntax highlighter, Code block folding, Completion",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "publisher": "FuYongchao",
     "homepage": "https://s0521.github.io/nonmem_cn/about/",
     "repository": {
@@ -15,6 +15,7 @@
     "categories": [
         "Programming Languages"
     ],
+    "icon": "icon.png",
     "main": "./extension.js",
     "activationEvents": [
         "onLanguage:nonmem_cn"
@@ -29,8 +30,8 @@
                 ],
                 "extensions": [
                     ".mod",
-                    "ctl",
-                    "clt",
+                    ".ctl",
+                    ".clt",
                     ".lst"
                 ],
                 "configuration": "./language-configuration.json"
