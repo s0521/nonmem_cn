@@ -23,7 +23,11 @@ This extension implements basic **language features** of **NONMEM** for [Visual 
 
 ![Code block folding](https://github.com/s0521/nonmem_cn/raw/master/Folding.gif)
 
- 
+- Code Outline 代码大纲
+
+
+![Code block folding](https://github.com/s0521/nonmem_cn/raw/master/Outline.png)
+
 
 # Extension Settings 扩展设置
 
@@ -47,9 +51,9 @@ It is recommended that the ordering of completed content is not very appropriate
 
 # Future Planning feature 未来计划功能
 
-- Outline 代码大纲
+- [x] Outline 代码大纲
 
-- Hover 悬停提示
+- [ ] Hover 悬停提示
 
 
 # Purpose 目的
@@ -99,3 +103,19 @@ I can add your supplementary content directly to the corresponding JOSN file by 
 ## Introduction of common NONMEM models(常见NONMEM模型介绍)：
 
 - https://support.certara.com/forums/forum/35-nlme-nonmem-model-comparisons/
+
+
+
+# Update Log 更新说明:
+
+## v0.2.0
+
+### Add code outline 新增了代码大纲功能
+
+First-level outline 一级大纲:
+
+begin with the "$" symbol, Line 以"$"符号开头的行
+
+Second-level outline:二级大纲:
+
+begin with the "; + text" symbol what text 以"$"符号开头的文本
