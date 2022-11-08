@@ -2,7 +2,7 @@
 
 This extension implements basic **language features** of **NONMEM** for [Visual Studio Code](https://code.visualstudio.com/).
 
-这个扩展在[Visual Studio Code](https://code.visualstudio.com/)实现了**NONMEM**的一些基础的**语言功能**。
+这个扩展在[Visual Studio Code](https://code.visualstudio.com/)实现了**NONMEM**的一些基础的代码**语言编辑辅助功能**。
 
   
 
@@ -82,16 +82,12 @@ I can add your supplementary content directly to the corresponding JOSN file by 
 
 - NONMEM's perfect partner. NONMEM的绝佳好搭档。
 
-- http://www.tri-ibiotech.com/pkpd/product_112.html
-
 - https://www.certara.com/software/pirana-modeling-workbench/
 
-- QQ群：563236369
 
 
 
-
-## Perl speaks NONMEM:
+## Perl speaks NONMEM(Perl使用NONMEM):
 
 - Common function combination toolkit. 常用功能组合工具包。
 
@@ -100,9 +96,36 @@ I can add your supplementary content directly to the corresponding JOSN file by 
 
 
 
+## Wings for NONMEM(NONMEM的翅膀):
+
+- WFN is a set of DOS batch command files and awk scripts to help NONMEM users be more productive. WFN是一组DOS批处理命令文件和awk脚本，可以帮助NONMEM用户提高工作效率。
+
+- https://wfn.sourceforge.net/
+
+
+
+
 ## Introduction of common NONMEM models(常见NONMEM模型介绍)：
 
 - https://support.certara.com/forums/forum/35-nlme-nonmem-model-comparisons/
+
+
+
+
+## Pharmacometrics Getting Started Tutorials(定量药理学入门教程)：
+
+- https://ascpt.onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN)2163-8306.Tutorials
+
+## Community 线下此主题的社区组织
+
+- 中国药理学会——定量药理学专业委员会
+
+- http://www.cnphars.org.cn/organizationview.asp
+
+
+## Online Community 线上社区
+
+- 定量药理爱好者交流群，QQ群：631729439
 
 
 
